@@ -19,7 +19,7 @@ public class vetoresEx01 {
 				System.out.println("O número " + numeroEscolhido + " está localizado na posição: " + i);
 				break;
 		
-			}if(i + 1 == numero.length && numeroEscolhido != numero [i]) {
+			}if(i + 1 == numero.length) {
 				System.out.println("O número " + numeroEscolhido + " não foi encontrado!");
 			}
 		}
